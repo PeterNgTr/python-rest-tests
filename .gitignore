@@ -1,0 +1,77 @@
+# Numerous always-ignore extensions (swap files, bytecode etc)
+*~
+*.diff
+*.orig
+*.err
+*.log
+*.rej
+*.swo
+*.swp
+*.pyc
+*.pyo
+*.vi
+__pycache__
+*.sass-cache
+*.kate-swp
+*.lokalize
+.*.yml
+.directory
+.installed.cfg
+anonymous_order.py
+# Project build folders
+lib/*
+!js/lib
+build
+dist
+eggs
+lib64
+parts
+static
+include
+geodata
+sql/backup*
+docs/build
+node_modules
+develop-eggs
+lokalize-scripts
+output
+/emails/
+
+# OS or Editor folders
+Thumbs.db
+nbproject
+
+.idea
+.cache
+.tmproj
+.project
+.settings
+.komodotools
+.DS_Store
+
+**/.DS_Store
+*.wpu
+*.esproj
+*.komodoproject
+*.sublime-project
+*.sublime-workspace
+.vscode/*
+
+# Versioning system directories to ignore
+.hg
+.svn
+.CVS
+
+# Github keys
+github_id_rsa
+github_id_rsa.pub
+git_crypt.key
+
+# python virtual env
+venv
+
+# seleniumbase
+latest_logs/*
+downloaded_files/*
+cap_file.py
+report/*

@@ -1,0 +1,5 @@
+pytest
+requests>=2.22.0
+Faker
+pytest-html>=1.21.1
+pytest-xdist>=1.29.0
