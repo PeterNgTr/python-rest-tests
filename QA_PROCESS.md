@@ -30,3 +30,8 @@ Process
 - Implementing the automation tests for that feature if possible.
 - Performing a regression tests to make sure it won't cause any regression issue.
 - Signing off the feature.
+
+Automation Approach
+-------------------
+
+Depends on the languages of FE and BE, automation tests can be considered what would be the best approach. For instance, with BE, mostly we perform the api calls hence, no browser involved, we can consider using either python (pytest) or javascript (axios). With FE, when involving browser, we should consider using selenium, puppeteer or playwright to develop tests. In the end, what we want is making sure we have the best quality as we could. Therefore, trying with any tools, languages we are familiar with to get what we need.
